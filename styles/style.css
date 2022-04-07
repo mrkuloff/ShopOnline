@@ -1,0 +1,21 @@
+@import "global_styles.css";
+@import "normalize.css";
+@import "../index/index.css";
+@import "../article/article.css";
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"), url('../fonts/lato-regular.woff2') format("woff2"),
+  url('../fonts/lato-regular.woff') format("woff");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato-Bold"), url('../fonts/lato-bold.woff2') format("woff2"),
+  url('../fonts/lato-bold.woff') format("woff");
+  font-display: swap;
+  font-weight: 700;
+}
+

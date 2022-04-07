@@ -3,10 +3,199 @@
 <head>
   <meta charset="UTF-8">
   <title>ShopOnline</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preload" href="./fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/lato-bold.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
+<header class="menu">
+  <div class="container">
+    <img class="menu__logo" src="index/img/logo.png" alt="logo">
+
+    <div class="menu__menu">
+      <img class="menu__img-menu" src="./index/img/Vector.svg" alt="points">
+      <p class="menu__text-menu">Меню</p>
+    </div>
+
+    <div class="menu__search">
+      <div class="menu__container-search">
+        <input class="menu__container-input" type="search" id="search" placeholder="Я ищу..." />
+        <button class="menu__container-button"><img src="index/img/search.svg" alt="search"></button>
+      </div>
+    </div>
+
+    <div class="menu__lists">
+      <nav class="menu__list">
+        <div class="menu__item menu__item-1">
+          <img src="index/img/profile.svg" alt="profile">
+          <p class="menu__list-text">Профиль</p>
+        </div>
+        <div class="menu__item menu__item-1">
+          <img src="index/img/shop.svg" alt="profile">
+          <p class="menu__list-text">Корзина</p>
+        </div>
+        <div class="menu__item menu__item-1">
+          <img src="index/img/love.svg" alt="profile">
+          <p class="menu__list-text">Избранное</p>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<main class="lists">
+  <div class="container">
+
+  <div class="list-banner">
+
+      <h1 class="list-banner__main-text">-50% на все ноутбуки</h1>
+
+      <div class="list-banner__text">
+
+        <p class="list-banner__texts_main">
+          До конца акции осталось:
+        </p>
+
+        <div class="list-banner__texts">
+          <div class="list-banner__texts_item">
+            <p class="list-banner__texts_1">3</p>
+            <p class="list-banner__texts_2">дня</p>
+          </div>
+
+          <div class="list-banner__texts_item">
+            <p class="list-banner__texts_1">43</p>
+            <p class="list-banner__texts_2">минуты</p>
+          </div>
+
+          <div class="list-banner__texts_item">
+            <p class="list-banner__texts_1">3</p>
+            <p class="list-banner__texts_2">дня</p>
+          </div>
+      </div>
+      </div>
+  </div>
+
+  <div class="list-1">
+      <div class="list-1__101">
+        <div class="list-1__p">
+        <p class="list-1__p-700 list-1__p_span">
+          Книга –
+        </p>
+        <p class="list-1__p-400 list-1__p_span">
+          лучший
+        </p>
+        <p class="list-1__p-400 list-1__p_span">
+          подарок
+        </p>
+        </div>
+      </div>
+
+      <div class="list-1__102">
+        <p class="list-1__p-400 list-1__102-p">
+          Время скидок!
+        </p>
+
+        <div class="list-1__102-circle">
+          <div class="list-1__circle">
+            -25%
+          </div>
+        </div>
+      </div>
+
+      <div class="list-1__104">
+        <div class="list-1__circle">
+          -40%
+        </div>
+      </div>
+
+      <div class="list-1__99">
+        <div class="list-1__99_sale">
+          <p class="list-1__p-400 list-1__p-span">
+            Вторая пара кроссовок
+          </p>
+          <p class="list-1__p-700 list-1__p-span">
+            в подарок!
+          </p>
+        </div>
+      </div>
+
+      <div class="list-1__100">
+        <p class="list-1__p-700 list-1__p_span">
+          Идеи новогодних
+        </p>
+        <p class="list-1__p-700 list-1__p_span">
+          подарков
+        </p>
+      </div>
+
+      <div class="list-1__103">
+        <p class="list-1__p-700">
+          Выгодно в декабре!
+        </p>
+
+        <div class="list-1__103-circle">
+          <div class="list-1__circle">
+            -15%
+          </div>
+        </div>
+      </div>
 
 
+      <div class="list-1__105">
+        <div class="list-1__105-raspberry">
+          <p class="list-1__p-700 list-1__p-700-raspberry">
+            Новогодние украшения
+          </p>
+        </div>
+      </div>
+
+      <div class="list-1__106">
+        <div class="list-1__circle">
+          -55%
+        </div>
+      </div>
+
+      <div class="list-1__107">
+        <div class="list-1__circle list-1__circle_107">
+          -25%
+        </div>
+
+        <p class="list-1__p-400 list-1__p-400_107">
+          На бытовую химию
+        </p>
+      </div>
+
+      <div class="list-1__108">
+      </div>
+    </div>
+
+    <div class="list-2">
+      <h2 class="list-2__main-text">
+        Это выгодно!
+      </h2>
+
+      <div class="list-2__item">
+        <div class="list-2__card">
+          <div class="list-2__card-header">
+            <div class="list-1__circle">
+              -50%
+            </div>
+          </div>
+        </div>
+        <article>
+          <p class="list-1__text-1">
+            1299 ₽
+          </p>
+          <p class="list-1__text-2">
+            2598 ₽
+          </p>
+          <p class="list-1__text-3">
+            Пара футболок
+          </p>
+        </article>
+      </div>
+    </div>
+  </div>
+</main>
 
 </body>
 </html>
