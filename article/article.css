@@ -1,0 +1,110 @@
+.shop__text_bold{
+  font-weight: 900;
+  font-size: 50px;
+}
+
+
+.shop__text {
+  font-weight: 400;
+  margin-bottom: 47px;
+  margin-top: 34px;
+  text-align: inherit;
+  font-size: 22px;
+}
+
+.shop__text_small {
+  font-weight: inherit;
+  color: #525252;
+  line-height: 16px;
+  text-align: inherit;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.shop__img {
+  margin-top: 50px;
+  margin-bottom: 59px;
+}
+
+.shop__text_bold-header-in-text{
+  font-weight: bold;
+  margin: 0;
+}
+
+.shop__text_in-text{
+  margin-top: 16px;
+  margin-bottom: 35px;
+}
+
+.shop__texts.shop__text {
+  font-weight: 400;
+  text-align: inherit;
+  font-size: 22px;
+}
+
+span{
+  display: block;
+}
+
+.shop__text_span span{
+  margin-top: 40px;
+}
+
+.shop__news{
+  float: right;
+  position: relative;
+}
+
+.shop__textnews{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.shop__smalltextnews{
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-align: left;
+}
+
+.shop__new_1 {
+  background-image: url("../article/img/city.png");
+  width: 532px;
+  height: 328px;
+
+  padding-top: 176px;
+  padding-left: 30px;
+}
+
+.shop__new_2 {
+  background-image: url("../article/img/car.png");
+  width: 532px;
+  height: 328px;
+
+  padding-top: 215px;
+  padding-left: 30px;
+}
+
+.shop {
+  display: grid;
+  grid-template-columns: 1095px 532px;
+  grid-template-rows: repeat(1,3200px);
+  gap: 143px;
+  justify-content: space-around;
+}
+
+.shop__3block {
+  padding-bottom: 80px;
+}
+
+.shop__footer_text {
+  display: inline-block;
+  margin-right: 647px;
+}
+
+.shop__footer {
+  margin-bottom: 762px;
+}
