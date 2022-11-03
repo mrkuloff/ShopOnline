@@ -4,13 +4,17 @@
   <meta charset="UTF-8">
   <title>ShopOnline</title>
   <link rel="stylesheet" href="styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preload" href="./fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="./fonts/lato-bold.woff2" as="font" type="font/woff2" crossorigin>
+  <script src="./js/script.js" defer></script>
 </head>
 <body>
 <header class="menu">
-  <div class="container">
-    <a href="index.html"><img class="menu__logo" src="index/img/logo.png" alt="logo"></a>
+  <div class="menu__1920">
+    <a class="menu__logo" href="index.html">
+      <img class="menu__img-logo" src="index/img/logo.png" alt="logo">
+    </a>
 
     <div class="menu__menu">
       <img class="menu__img-menu" src="./index/img/Vector.svg" alt="points">
@@ -19,7 +23,7 @@
 
     <div class="menu__search">
       <div class="menu__container-search">
-        <input class="menu__container-input" type="search" id="search" placeholder="Я ищу..." />
+        <label for="search_1"></label><input class="menu__container-input" type="search" id="search_1" placeholder="Я ищу..." />
         <button class="menu__container-button"><img src="index/img/search.svg" alt="search"></button>
       </div>
     </div>
@@ -41,6 +45,46 @@
       </nav>
     </div>
   </div>
+
+  <div class="menu__1024">
+    <div class="menu__1024-1">
+      <a class="menu__logo" href="index.html">
+        <img class="menu__img-logo" src="index/img/logo.png" alt="logo">
+      </a>
+
+      <div class="menu__lists">
+        <nav class="menu__list">
+          <div class="menu__item menu__item-1">
+            <img src="index/img/profile.svg" alt="profile">
+            <p class="menu__list-text">Профиль</p>
+          </div>
+          <div class="menu__item menu__item-1">
+            <img src="index/img/shop.svg" alt="profile">
+            <p class="menu__list-text">Корзина</p>
+          </div>
+          <div class="menu__item menu__item-1">
+            <img src="index/img/love.svg" alt="profile">
+            <p class="menu__list-text">Избранное</p>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="menu__1024-2">
+      <div class="menu__menu">
+        <img class="menu__img-menu" src="./index/img/Vector.svg" alt="points">
+        <p class="menu__text-menu">Меню</p>
+      </div>
+
+      <div class="menu__search">
+        <div class="menu__container-search">
+          <label for="search_2"></label><input class="menu__container-input" type="search" id="search_2" placeholder="Я ищу..." />
+          <button class="menu__container-button"><img src="index/img/search.svg" alt="search"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </header>
 <main class="lists">
   <div class="container">
@@ -49,29 +93,7 @@
 
       <h1 class="list-banner__main-text">-50% на все ноутбуки</h1>
 
-      <div class="list-banner__text">
-
-        <p class="list-banner__texts_main">
-          До конца акции осталось:
-        </p>
-
-        <div class="list-banner__texts">
-          <div class="list-banner__texts_item">
-            <p class="list-banner__texts_1">3</p>
-            <p class="list-banner__texts_2">дня</p>
-          </div>
-
-          <div class="list-banner__texts_item">
-            <p class="list-banner__texts_1">43</p>
-            <p class="list-banner__texts_2">минуты</p>
-          </div>
-
-          <div class="list-banner__texts_item">
-            <p class="list-banner__texts_1">3</p>
-            <p class="list-banner__texts_2">дня</p>
-          </div>
-      </div>
-      </div>
+      <div class="list-banner__text timer" data-timer-deadline="2022/11/15 00:00 GMT-3"></div>
   </div>
 
   <ul class="list-1">
